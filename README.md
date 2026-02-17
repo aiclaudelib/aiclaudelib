@@ -2,19 +2,21 @@
 
 Community plugins for Claude Code.
 
+<pre>
 aiclaudelib marketplace
 │
 ├─ utility
-│  ├─ [ccode](https://github.com/aiclaudelib/ccode-plugin) ··················· plugin scaffolding, skills, agents, hooks, MCP
-│  ├─ [git](https://github.com/aiclaudelib/git-plugin) ····················· workflow commands, checkpoints, expert agent
-│  ├─ [reflect](https://github.com/aiclaudelib/reflect-plugin) ················· autonomous self-review: question → investigate → fix
-│  └─ [aiclaudelib](https://github.com/aiclaudelib/marketplace) ············· interactive marketplace browser & installer
+│  ├─ <a href="https://github.com/aiclaudelib/ccode-plugin">ccode</a> ··················· plugin scaffolding, skills, agents, hooks, MCP
+│  ├─ <a href="https://github.com/aiclaudelib/git-plugin">git</a> ····················· workflow commands, checkpoints, expert agent
+│  ├─ <a href="https://github.com/aiclaudelib/reflect-plugin">reflect</a> ················· autonomous self-review: question → investigate → fix
+│  └─ <a href="https://github.com/aiclaudelib/marketplace">aiclaudelib</a> ············· interactive marketplace browser & installer
 │
 ├─ testing
-│  └─ [playwright-cli](https://github.com/aiclaudelib/playwright-cli-plugin) ·········· browser automation, screenshots, tracing, network mocking
+│  └─ <a href="https://github.com/aiclaudelib/playwright-cli-plugin">playwright-cli</a> ·········· browser automation, screenshots, tracing, network mocking
 │
 └─ development
-   └─ [nodejs-development](https://github.com/aiclaudelib/nodejs-plugin) ······ architecture, testing, security, API, TypeScript
+   └─ <a href="https://github.com/aiclaudelib/nodejs-plugin">nodejs-development</a> ······ architecture, testing, security, API, TypeScript
+</pre>
 
 > **Install:** `/plugin marketplace add aiclaudelib/marketplace` then `/aiclaudelib:install`
 >
