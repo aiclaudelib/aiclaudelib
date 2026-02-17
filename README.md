@@ -1,3 +1,28 @@
+# aiclaudelib
+
+Community plugins for Claude Code.
+
+```
+aiclaudelib marketplace
+│
+├─ utility
+│  ├─ ccode ··················· plugin scaffolding, skills, agents, hooks, MCP
+│  ├─ git ····················· workflow commands, checkpoints, expert agent
+│  ├─ reflect ················· autonomous self-review: question → investigate → fix
+│  └─ aiclaudelib ············· interactive marketplace browser & installer
+│
+└─ development
+   └─ nodejs-development ······ architecture, testing, security, API, TypeScript
+```
+
+> **Install:** `/plugin marketplace add aiclaudelib/marketplace` then `/aiclaudelib:install`
+>
+> **Direct:** `/plugin install <name>@aiclaudelib` — where name is any of the above
+
+---
+
+## Notes
+
 Notes on Claude Code plugins. Gotchas, fixes, workarounds.
 
 ## `context: fork` + `agent:` — skill doesn't fork
