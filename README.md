@@ -11,6 +11,9 @@ aiclaudelib marketplace
 │  ├─ reflect ················· autonomous self-review: question → investigate → fix
 │  └─ aiclaudelib ············· interactive marketplace browser & installer
 │
+├─ testing
+│  └─ playwright-cli ·········· browser automation, screenshots, tracing, network mocking
+│
 └─ development
    └─ nodejs-development ······ architecture, testing, security, API, TypeScript
 ```
