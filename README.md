@@ -2,21 +2,19 @@
 
 Community plugins for Claude Code.
 
-```
 aiclaudelib marketplace
 │
 ├─ utility
-│  ├─ ccode ··················· plugin scaffolding, skills, agents, hooks, MCP
-│  ├─ git ····················· workflow commands, checkpoints, expert agent
-│  ├─ reflect ················· autonomous self-review: question → investigate → fix
-│  └─ aiclaudelib ············· interactive marketplace browser & installer
+│  ├─ [ccode](https://github.com/aiclaudelib/ccode-plugin) ··················· plugin scaffolding, skills, agents, hooks, MCP
+│  ├─ [git](https://github.com/aiclaudelib/git-plugin) ····················· workflow commands, checkpoints, expert agent
+│  ├─ [reflect](https://github.com/aiclaudelib/reflect-plugin) ················· autonomous self-review: question → investigate → fix
+│  └─ [aiclaudelib](https://github.com/aiclaudelib/marketplace) ············· interactive marketplace browser & installer
 │
 ├─ testing
-│  └─ playwright-cli ·········· browser automation, screenshots, tracing, network mocking
+│  └─ [playwright-cli](https://github.com/aiclaudelib/playwright-cli-plugin) ·········· browser automation, screenshots, tracing, network mocking
 │
 └─ development
-   └─ nodejs-development ······ architecture, testing, security, API, TypeScript
-```
+   └─ [nodejs-development](https://github.com/aiclaudelib/nodejs-plugin) ······ architecture, testing, security, API, TypeScript
 
 > **Install:** `/plugin marketplace add aiclaudelib/marketplace` then `/aiclaudelib:install`
 >
