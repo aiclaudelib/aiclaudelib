@@ -5,10 +5,13 @@ Community plugins for Claude Code.
 <pre>
 aiclaudelib marketplace
 │
+├─ analysis
+│  ├─ <a href="https://github.com/aiclaudelib/reflect-plugin">reflect</a> ················· autonomous self-review: question → investigate → fix
+│  └─ <a href="https://github.com/aiclaudelib/code-review-plugin">code-review</a> ············· multi-agent PR review with confidence scoring
+│
 ├─ utility
 │  ├─ <a href="https://github.com/aiclaudelib/ccode-plugin">ccode</a> ··················· plugin scaffolding, skills, agents, hooks, MCP
 │  ├─ <a href="https://github.com/aiclaudelib/git-plugin">git</a> ····················· workflow commands, checkpoints, expert agent
-│  ├─ <a href="https://github.com/aiclaudelib/reflect-plugin">reflect</a> ················· autonomous self-review: question → investigate → fix
 │  └─ <a href="https://github.com/aiclaudelib/marketplace">aiclaudelib</a> ············· interactive marketplace browser & installer
 │
 ├─ testing
